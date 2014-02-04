@@ -8,7 +8,7 @@
         android:id="@+id/media_list_item_image"
         android:layout_width="70dp"
         android:layout_height="match_parent"
-        android:contentDescription="Poster for media item">
+        android:contentDescription="@string/content_description_poster">
     </ImageView>
     <RelativeLayout
         android:orientation="vertical"
@@ -49,6 +49,7 @@
 			    android:background="@drawable/circle_background_green"
 			    android:scaleType="fitCenter"
 			    style="?android:attr/buttonBarButtonStyle"
+			    android:contentDescription="@string/content_description_more_info"
 			     />
 		    <ImageButton
 			    android:id="@+id/button_media_list_item_watched"
@@ -59,6 +60,7 @@
 			    android:src="@drawable/eye_icon_black"
 			    android:background="@drawable/circle_background_pink"
 			    android:scaleType="fitCenter"
+			    android:contentDescription="@string/content_description_watched"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />
 		    <ImageButton
@@ -70,6 +72,7 @@
 			    android:src="@drawable/bookmark_icon_black"
 			    android:background="@drawable/circle_background_blue"
 			    android:scaleType="fitCenter"
+			    android:contentDescription="@string/content_description_add_to_collection"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />
 		    <ImageButton
@@ -81,6 +84,7 @@
 			    android:src="@drawable/clipboard_icon_black"
 			    android:background="@drawable/circle_background_purple"
    			    android:scaleType="fitCenter"
+   			    android:contentDescription="@string/content_description_add_to_watchlist"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />
 		    

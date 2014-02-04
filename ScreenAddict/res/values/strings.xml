@@ -22,5 +22,12 @@
     <string name="title_episode_results">Episodes</string>
     <string name="title_people_results">People</string>
     <string name="show_all">Show All&#8230;</string>
+    
+    <!-- Media List Content Description Strings -->
+    <string name="content_description_poster">Poster/Primary image for the media item</string>
+    <string name="content_description_more_info">Button for navigating to a "More Info" page for a media item, noted with !</string>
+    <string name="content_description_watched">Button for marking a media item as "watched" in the user\'s library</string>
+    <string name="content_description_add_to_collection">Button for adding a media item to the user\'s collection</string>
+    <string name="content_description_add_to_watchlist">Button for adding a media item to the user\s watchlist</string>
 
 </resources>
