@@ -33,8 +33,6 @@ public class SearchResultsTabbed extends FragmentActivity implements ActionBar.T
 	private SearchResultsSectionsPagerAdapter mSectionsPagerAdapter;
 	private ViewPager mViewPager;
 	
-	// THIS IS A COMMENT TO TEST CHECKIN
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
