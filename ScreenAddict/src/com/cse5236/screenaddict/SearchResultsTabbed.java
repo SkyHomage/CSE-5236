@@ -12,6 +12,7 @@ import com.cse5236.screenaddict.networking.TraktSearch;
 import com.cse5236.screenaddict.networking.TraktSearch.SearchCategory;
 
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -215,6 +216,33 @@ public class SearchResultsTabbed extends FragmentActivity implements ActionBar.T
 			searchResultsList.setAdapter(movieAdapter);
 			return rootView;
 		}
+	}
+	
+	public void HandleMediaListItemButtonClick(View v) {
+		switch (v.getId()) {
+		case R.id.button_media_list_item_info:
+			// TODO: MORE INFO
+			popupMsg("MORE INFO");
+			break;
+		case R.id.button_media_list_item_watched:
+			// TODO: MARK AS WATCHED
+			popupMsg("MARK AS WATCHED");
+			break;
+		case R.id.button_media_list_item_add_to_collection:
+			// TODO: ADD TO COLLECTION
+			popupMsg("ADD TO COLLECTION");
+			break;
+		case R.id.button_media_list_item_add_to_watchlist:
+			// TODO: ADD TO WATCHLIST
+			popupMsg("ADD TO WATCHLIST");
+			break;
+		}
+	}
+	
+	private void popupMsg(String msg) {
+		AlertDialog msgDialog = new AlertDialog.Builder(this).create();
+		msgDialog.setMessage(msg);
+		msgDialog.show();
 	}
 
 }

@@ -46,8 +46,9 @@
 			    android:layout_height="30dp"
 			    android:padding="5dp"
 			    android:src="@drawable/info_icon_black"
-			    android:background="@drawable/circle_background_green"
+			    android:background="@drawable/media_list_item_button_shape_green"
 			    android:scaleType="fitCenter"
+			    android:onClick="HandleMediaListItemButtonClick"
 			    style="?android:attr/buttonBarButtonStyle"
 			    android:contentDescription="@string/content_description_more_info"
 			     />
@@ -58,8 +59,9 @@
 	    	    android:padding="5dp"
 			   	android:layout_marginLeft="10dp"
 			    android:src="@drawable/eye_icon_black"
-			    android:background="@drawable/circle_background_pink"
+			    android:background="@drawable/media_list_item_button_shape_pink"
 			    android:scaleType="fitCenter"
+			    android:onClick="HandleMediaListItemButtonClick"
 			    android:contentDescription="@string/content_description_watched"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />
@@ -70,8 +72,9 @@
 			    android:padding="5dp"
 			    android:layout_marginLeft="10dp"
 			    android:src="@drawable/bookmark_icon_black"
-			    android:background="@drawable/circle_background_blue"
+			    android:background="@drawable/media_list_item_button_shape_blue"
 			    android:scaleType="fitCenter"
+			    android:onClick="HandleMediaListItemButtonClick"
 			    android:contentDescription="@string/content_description_add_to_collection"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />
@@ -82,8 +85,9 @@
 			    android:padding="5dp" 
 			   	android:layout_marginLeft="10dp"
 			    android:src="@drawable/clipboard_icon_black"
-			    android:background="@drawable/circle_background_purple"
+			    android:background="@drawable/media_list_item_button_shape_purple"
    			    android:scaleType="fitCenter"
+   			    android:onClick="HandleMediaListItemButtonClick"
    			    android:contentDescription="@string/content_description_add_to_watchlist"
 			    style="?android:attr/buttonBarButtonStyle"
 			     />

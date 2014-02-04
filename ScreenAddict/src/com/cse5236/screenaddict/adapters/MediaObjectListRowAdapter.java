@@ -73,4 +73,5 @@ public class MediaObjectListRowAdapter extends ArrayAdapter<IMediaObject> {
 		ImageView poster;
 	}
 	
+	
 }
