@@ -69,7 +69,7 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"              
                 android:paddingTop="10dp"
-                android:background="@drawable/home_button_background_pink"
+                android:background="@drawable/home_tv_button"
                 android:contentDescription="@string/my_tv"
                 android:drawableTop="@drawable/tv_icon"
                 android:text="@string/my_tv"
