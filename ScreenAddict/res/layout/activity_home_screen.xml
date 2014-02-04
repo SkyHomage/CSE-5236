@@ -55,12 +55,13 @@
                 android:background="@drawable/home_button_background_green"
                 android:contentDescription="@string/my_movies"
                 android:drawableTop="@drawable/movie_icon"
-                android:text="MY MOVIES"
+                android:text="@string/my_movies"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
-
+                android:textStyle="bold"
+                style="@style/ButtonBarButton"
+                />
             <Button
                 android:id="@+id/button_my_tv"
                 android:layout_width="match_parent"
@@ -71,11 +72,13 @@
                 android:background="@drawable/home_button_background_pink"
                 android:contentDescription="@string/my_tv"
                 android:drawableTop="@drawable/tv_icon"
-                android:text="MY SHOWS"
+                android:text="@string/my_tv"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                style="@style/ButtonBarButton"
+                />
 
         </LinearLayout>
         
@@ -96,11 +99,12 @@
                 android:background="@drawable/home_button_backround_blue"
                 android:contentDescription="@string/my_actors"
                 android:drawableTop="@drawable/actor_icon"
-                android:text="MY ACTORS"
+                android:text="@string/my_actors"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                style="@style/ButtonBarButton" />
 
             <Button
                 android:id="@+id/button_watchlist"
@@ -112,11 +116,12 @@
                 android:contentDescription="@string/my_watchlist"
                 android:paddingTop="10dp"
                 android:drawableTop="@drawable/watchlist_icon"
-                android:text="MY WATCHLIST"
+                android:text="@string/my_watchlist"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                style="@style/ButtonBarButton" />
 
         </LinearLayout>
         
@@ -137,11 +142,12 @@
                 android:contentDescription="@string/my_lists"
                 android:paddingTop="10dp"
                 android:drawableTop="@drawable/lists_icon"
-                android:text="MY LISTS"
+                android:text="@string/my_lists"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                style="@style/ButtonBarButton" />
 
            <Button
                android:id="@+id/button_watch_calendar"
@@ -153,11 +159,12 @@
                android:contentDescription="@string/watch_calendar"
                android:paddingTop="10dp"
                android:drawableTop="@drawable/calendar_icon"
-               android:text="WATCH CALENDAR"
+               android:text="@string/watch_calendar"
                android:textColor="@color/white"
                android:textAlignment="gravity"
                android:textSize="6pt"
-               android:textStyle="bold" />
+               android:textStyle="bold"
+               style="@style/ButtonBarButton" />
 
        </LinearLayout>
         
@@ -178,11 +185,12 @@
                android:contentDescription="@string/refresh"
                android:paddingTop="10dp"
                android:drawableTop="@drawable/refresh_icon"
-               android:text="REFRESH"
+               android:text="@string/refresh"
                android:textColor="@color/white"
                android:textAlignment="gravity"
                android:textSize="6pt"
-               android:textStyle="bold" />
+               android:textStyle="bold"
+               style="@style/ButtonBarButton" />
 
             <Button
                 android:id="@+id/button_app_settings"
@@ -194,11 +202,12 @@
                 android:contentDescription="@string/app_settings"
                 android:paddingTop="10dp"
                 android:drawableTop="@drawable/settings_icon"
-                android:text="APP SETTINGS"
+                android:text="@string/app_settings"
                 android:textColor="@color/white"
                 android:textAlignment="gravity"
                 android:textSize="6pt"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                style="@style/ButtonBarButton" />
 
         </LinearLayout>
         
