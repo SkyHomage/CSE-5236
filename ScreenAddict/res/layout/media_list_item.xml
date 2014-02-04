@@ -3,10 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="100dp">
+    android:layout_height="@dimen/media_list_item_height">
     <ImageView
         android:id="@+id/media_list_item_image"
-        android:layout_width="70dp"
+        android:layout_width="@dimen/media_list_item_poster_height"
         android:layout_height="match_parent"
         android:contentDescription="@string/content_description_poster">
     </ImageView>
@@ -17,7 +17,7 @@
         <TextView 
 		    android:id="@+id/media_list_item_title"
 		    android:layout_width="match_parent"
-		    android:layout_height="30dp"
+		    android:layout_height="@dimen/media_list_item_title_height"
 		    android:gravity="center_vertical"
 		    android:textStyle="bold|italic"
 		    android:textSize="10pt"
@@ -27,7 +27,7 @@
 		    android:id="@+id/media_list_item_year"
 		    android:layout_below="@+id/media_list_item_title"
 		   	android:layout_width="match_parent"
-		    android:layout_height="20dp"
+		    android:layout_height="@dimen/media_list_item_year_height"
 		    android:gravity="center_vertical"
 		    android:textSize="6pt"
 		    android:textColor="@color/black"	    
@@ -35,16 +35,16 @@
 		<LinearLayout 
 		    android:layout_below="@+id/media_list_item_year"
 		    android:orientation="horizontal"
-		    android:layout_height="50dp"
+		    android:layout_height="@dimen/media_list_item_action_buttons_height"
 		    android:layout_width="match_parent"
 		    android:gravity="right|center_vertical"
-		    android:paddingRight="16dp"
+		    android:paddingRight="@dimen/media_list_item_action_buttons_padding"
 			style="?android:attr/buttonBarButtonStyle">
 		    <ImageButton
 			    android:id="@+id/button_media_list_item_info"
-			    android:layout_width="30dp"
-			    android:layout_height="30dp"
-			    android:padding="5dp"
+			    android:layout_width="@dimen/media_list_item_button_width_height"
+			    android:layout_height="@dimen/media_list_item_button_width_height"
+			    android:padding="@dimen/media_list_item_button_padding"
 			    android:src="@drawable/info_icon_black"
 			    android:background="@drawable/media_list_item_custom_button_more_info"
 			    android:scaleType="fitCenter"
@@ -54,10 +54,10 @@
 			     />
 		    <ImageButton
 			    android:id="@+id/button_media_list_item_watched"
-			    android:layout_width="30dp"
-			    android:layout_height="30dp"
-	    	    android:padding="5dp"
-			   	android:layout_marginLeft="10dp"
+			    android:layout_width="@dimen/media_list_item_button_width_height"
+			    android:layout_height="@dimen/media_list_item_button_width_height"
+	    	    android:padding="@dimen/media_list_item_button_padding"
+			   	android:layout_marginLeft="@dimen/media_list_item_button_spacing"
 			    android:src="@drawable/eye_icon_black"
 			    android:background="@drawable/media_list_item_custom_button_watched"
 			    android:scaleType="fitCenter"
@@ -67,10 +67,10 @@
 			     />
 		    <ImageButton
 			    android:id="@+id/button_media_list_item_add_to_collection"
-			    android:layout_width="30dp"
-			    android:layout_height="30dp"
-			    android:padding="5dp"
-			    android:layout_marginLeft="10dp"
+			    android:layout_width="@dimen/media_list_item_button_width_height"
+			    android:layout_height="@dimen/media_list_item_button_width_height"
+			    android:padding="@dimen/media_list_item_button_padding"
+			    android:layout_marginLeft="@dimen/media_list_item_button_spacing"
 			    android:src="@drawable/bookmark_icon_black"
 			    android:background="@drawable/media_list_item_custom_button_add_to_collection"
 			    android:scaleType="fitCenter"
@@ -80,10 +80,10 @@
 			     />
 		    <ImageButton
 			    android:id="@+id/button_media_list_item_add_to_watchlist"
-			    android:layout_width="30dp"
-			    android:layout_height="30dp"
-			    android:padding="5dp" 
-			   	android:layout_marginLeft="10dp"
+			    android:layout_width="@dimen/media_list_item_button_width_height"
+			    android:layout_height="@dimen/media_list_item_button_width_height"
+			    android:padding="@dimen/media_list_item_button_padding" 
+			   	android:layout_marginLeft="@dimen/media_list_item_button_spacing"
 			    android:src="@drawable/clipboard_icon_black"
 			    android:background="@drawable/media_list_item_custom_button_add_to_watchlist"
    			    android:scaleType="fitCenter"

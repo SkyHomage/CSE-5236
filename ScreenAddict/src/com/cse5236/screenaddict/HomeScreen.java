@@ -73,27 +73,35 @@ public class HomeScreen extends Activity implements OnClickListener {
 			}
 			break;
 		case R.id.button_my_movies:
+			// TODO
 			popupMsg("Goto: My Movies");
 			break;
 		case R.id.button_my_tv:
+			// TODO
 			popupMsg("Goto: My TV");
 			break;
 		case R.id.button_actors:
+			// TODO
 			popupMsg("Goto: Actors");
 			break;
 		case R.id.button_watchlist:
+			// TODO
 			popupMsg("Goto: Watchlist");
 			break;
 		case R.id.button_my_lists:
+			// TODO
 			popupMsg("Goto: My Lists");
 			break;
 		case R.id.button_watch_calendar:
+			// TODO
 			popupMsg("Goto: Watch Calendar");
 			break;
 		case R.id.button_refresh:
+			// TODO
 			popupMsg("Refresh");
 			break;
 		case R.id.button_app_settings:
+			// TODO
 			popupMsg("Goto: App Settings");
 			break;
 		}
