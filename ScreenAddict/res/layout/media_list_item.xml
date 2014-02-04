@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/media_list_item_image"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:contentDescription="Poster for media item">
+    </ImageView>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView 
+		    android:id="@+id/media_list_item_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="30dp"
+		    android:gravity="center_vertical"
+		    android:textStyle="bold|italic"
+		    android:textSize="10pt"
+		    android:textColor="@color/black"
+		    android:singleLine="true" />
+		<TextView
+		    android:id="@+id/media_list_item_year"
+		    android:layout_below="@+id/media_list_item_title"
+		   	android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:gravity="center_vertical"
+		    android:textSize="6pt"
+		    android:textColor="@color/black"	    
+		    android:singleLine="true" />
+		<LinearLayout 
+		    android:layout_below="@+id/media_list_item_year"
+		    android:orientation="horizontal"
+		    android:layout_height="50dp"
+		    android:layout_width="match_parent"
+		    android:gravity="right|center_vertical"
+		    android:paddingRight="16dp"
+			style="?android:attr/buttonBarButtonStyle">
+		    <ImageButton
+			    android:id="@+id/button_media_list_item_info"
+			    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:padding="5dp"
+			    android:src="@drawable/info_icon_black"
+			    android:background="@drawable/circle_background_green"
+			    android:scaleType="fitCenter"
+			    style="?android:attr/buttonBarButtonStyle"
+			     />
+		    <ImageButton
+			    android:id="@+id/button_media_list_item_watched"
+			    android:layout_width="30dp"
+			    android:layout_height="30dp"
+	    	    android:padding="5dp"
+			   	android:layout_marginLeft="10dp"
+			    android:src="@drawable/eye_icon_black"
+			    android:background="@drawable/circle_background_pink"
+			    android:scaleType="fitCenter"
+			    style="?android:attr/buttonBarButtonStyle"
+			     />
+		    <ImageButton
+			    android:id="@+id/button_media_list_item_add_to_collection"
+			    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:padding="5dp"
+			    android:layout_marginLeft="10dp"
+			    android:src="@drawable/bookmark_icon_black"
+			    android:background="@drawable/circle_background_blue"
+			    android:scaleType="fitCenter"
+			    style="?android:attr/buttonBarButtonStyle"
+			     />
+		    <ImageButton
+			    android:id="@+id/button_media_list_item_add_to_watchlist"
+			    android:layout_width="30dp"
+			    android:layout_height="30dp"
+			    android:padding="5dp" 
+			   	android:layout_marginLeft="10dp"
+			    android:src="@drawable/clipboard_icon_black"
+			    android:background="@drawable/circle_background_purple"
+   			    android:scaleType="fitCenter"
+			    style="?android:attr/buttonBarButtonStyle"
+			     />
+		    
+		</LinearLayout>
+		
+    </RelativeLayout>
+    
+</LinearLayout>
+

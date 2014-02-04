@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trakt_base_url">http://api.trakt.tv/</string>
+    <string name="trakt_search_base_path">search/</string>
+    
+    <!-- API KEY -->
+    <string name="trakt_api_key">8087219c7df27bbbbe3f55dff3fff9e6</string>
+    
+    <!-- Search Paths -->
+    <string name="trakt_search_movies_path">movies.json/</string>
+    <string name="trakt_search_shows_path">shows.json/</string>
+    <string name="trakt_search_episodes_path">episodes.json/</string>
+    <string name="trakt_search_people_path">people.json/</string>
+    
+    <!-- Query Prefix -->
+    <string name="trakt_search_query_prefix">"?query="</string>
+    
+    <!-- Limit Prefix -->
+    <string name="trakt_search_limit_prefix">&amp;limit=</string>
+</resources>

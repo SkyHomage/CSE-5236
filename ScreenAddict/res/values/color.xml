@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00D277</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="green">#00D277</color>
+    <color name="pink">#FF3F82</color>
+    <color name="blue">#4F8BFC</color>
+    <color name="orange">#FF7F29</color>
+    <color name="yellow">#FFCC00</color>
+    <color name="purple">#AE57FF</color>
+    <color name="background">#676767</color>
+	<color name="grey">#AA545454</color>
+	<color name="light">#F9F9EE</color>
+	<color name="white">#FFFFFF</color>
+    <color name="selectedBlock">#66FF0000</color>
+    <color name="black">#000000</color>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+        <!-- SEARCH BAR -->
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/edit_home_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/search_hint"
+                android:inputType="text"
+                android:singleLine="true"
+                android:layout_weight="3" />
+
+            <ImageButton
+                android:id="@+id/button_home_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/search_icon_small" 
+                android:contentDescription="@string/search_hint"/>
+
+        </LinearLayout>
+        
+        <!-- ROW 1: MOVIES AND TV -->
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+            <Button
+                android:id="@+id/button_my_movies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/home_button_background_green"
+                android:contentDescription="@string/my_movies"
+                android:drawableTop="@drawable/movie_icon"
+                android:text="MY MOVIES"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_my_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"              
+                android:paddingTop="10dp"
+                android:background="@drawable/home_button_background_pink"
+                android:contentDescription="@string/my_tv"
+                android:drawableTop="@drawable/tv_icon"
+                android:text="MY SHOWS"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        <!-- ROW 2: ACTORS AND WATCHLIST -->
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+            <Button
+                android:id="@+id/button_actors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/home_button_backround_blue"
+                android:contentDescription="@string/my_actors"
+                android:drawableTop="@drawable/actor_icon"
+                android:text="MY ACTORS"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_watchlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button_background_orange"
+                android:contentDescription="@string/my_watchlist"
+                android:paddingTop="10dp"
+                android:drawableTop="@drawable/watchlist_icon"
+                android:text="MY WATCHLIST"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        <!-- ROW 3: LISTS AND CALENDAR-->
+        <LinearLayout 
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           >
+
+            <Button
+                android:id="@+id/button_my_lists"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button_background_purple"
+                android:contentDescription="@string/my_lists"
+                android:paddingTop="10dp"
+                android:drawableTop="@drawable/lists_icon"
+                android:text="MY LISTS"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/button_watch_calendar"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_margin="10dp"
+               android:layout_weight="1"
+               android:background="@drawable/home_button_background_yellow"
+               android:contentDescription="@string/watch_calendar"
+               android:paddingTop="10dp"
+               android:drawableTop="@drawable/calendar_icon"
+               android:text="WATCH CALENDAR"
+               android:textColor="@color/white"
+               android:textAlignment="gravity"
+               android:textSize="6pt"
+               android:textStyle="bold" />
+
+       </LinearLayout>
+        
+       <!-- ROW 4: REFRESH AND SETTINGS -->
+       <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+           <Button
+               android:id="@+id/button_refresh"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_margin="10dp"
+               android:layout_weight="1"
+               android:background="@drawable/home_button_background_grey"
+               android:contentDescription="@string/refresh"
+               android:paddingTop="10dp"
+               android:drawableTop="@drawable/refresh_icon"
+               android:text="REFRESH"
+               android:textColor="@color/white"
+               android:textAlignment="gravity"
+               android:textSize="6pt"
+               android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_app_settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button_background_black"
+                android:contentDescription="@string/app_settings"
+                android:paddingTop="10dp"
+                android:drawableTop="@drawable/settings_icon"
+                android:text="APP SETTINGS"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:textSize="6pt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</ScrollView>

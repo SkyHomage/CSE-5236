@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_movies">My Movies</string>
+    <string name="my_tv">My TV</string>
+    <string name="my_watchlist">Watchlist</string>
+    <string name="my_actors">Favorite Actors</string>
+    <string name="my_lists">My Lists</string>
+    <string name="app_settings">App Settings</string>
+    <string name="watch_calendar">Calendar</string>
+    <string name="refresh">Refresh</string>
+</resources>
