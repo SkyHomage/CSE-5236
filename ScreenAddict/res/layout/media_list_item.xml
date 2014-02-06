@@ -20,7 +20,7 @@
 		    android:layout_height="@dimen/media_list_item_title_height"
 		    android:gravity="center_vertical"
 		    android:textStyle="bold|italic"
-		    android:textSize="10pt"
+		    android:textSize="@dimen/media_list_item_title_font_size"
 		    android:textColor="@color/black"
 		    android:singleLine="true" />
 		<TextView
@@ -29,7 +29,7 @@
 		   	android:layout_width="match_parent"
 		    android:layout_height="@dimen/media_list_item_year_height"
 		    android:gravity="center_vertical"
-		    android:textSize="6pt"
+		    android:textSize="@dimen/media_list_item_year_font_size"
 		    android:textColor="@color/black"	    
 		    android:singleLine="true" />
 		<LinearLayout 
